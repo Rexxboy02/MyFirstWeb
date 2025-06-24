@@ -12,6 +12,10 @@ header{
     background-color: #1F2937;
 }
 
+a:hover{
+    cursor: pointer;
+}
+
 h1{
     font-size: 48px;
     color: #F9FAF8;
@@ -25,12 +29,12 @@ h1{
 
 button{
     background-color: #3882F6;
-    color: #E5E7EB;
-    font-size: 14px;
     border: none;
     border-radius: 5px;
     padding: 0.5rem 1rem;
     width: 150px;
+    color: #E5E7EB;
+    font-size: 14px;
 }
 
 h2{
@@ -57,11 +61,21 @@ ul{
     margin: 0;
     padding: 0;
     list-style: none;
+    align-items: center;
 }
 
 h1{
     margin: 0;
 }
+
+.signup-text{
+    color: #E5E7EB;
+}
+
+.signup-button{
+    border: #E5E7EB 2px solid;
+}
+
 
 /* -------- Header -------- */
 
@@ -70,7 +84,7 @@ h1{
 }
 
 header{
-    padding: 1rem;
+    padding: 1.5rem;
 }
 
 .header{
@@ -106,3 +120,109 @@ ul{
 
 /* -------- Random information -------- */
 
+h2{
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 40px;
+}
+
+.sec2{
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    align-items: center;
+}
+
+.img-seccion2{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: #3882F6 3px solid;
+    border-radius: 10px;
+}
+
+figcaption{
+    color: #1F2937;
+    text-align: center;
+    width: 200px;
+}
+
+/* -------- Quote -------- */
+
+.quote{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.quote-par{
+    width: 60%;
+    margin-bottom: 0px;
+}
+
+.destacado{
+    font-weight: 900;
+    text-align: end;
+    margin-top: 0px;
+}
+
+
+
+/* -------- Signup -------- */
+
+.signup{
+    display: flex;
+}
+
+.azul{
+    background-color: #3882F6;
+    width: 60%;
+    margin: auto;
+    border-radius: 6px;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.signup-text,
+.signup-button{
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.signup-button{
+    height: 40px;
+}
+
+/* -------- Footer -------- */
+
+footer{
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    color: #E5E7EB;
+    justify-content: center;
+    align-items: center;
+
+}
+
+footer p{
+    margin-top: 0px;
+    margin-bottom: 4px;
+}
+
+.repo{
+    color: #E5E7EB;
+    text-decoration: underline;
+}
+
+
+/* -------- Alturas del contenido -------- */
+
+.sec2,
+.signup,
+.quote{
+    height: 400px;
+}
