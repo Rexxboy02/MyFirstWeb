@@ -1,0 +1,108 @@
+*{
+    font-family: 'Roboto';
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+footer,
+header{
+    background-color: #1F2937;
+}
+
+h1{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.hero-secText{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button{
+    background-color: #3882F6;
+    color: #E5E7EB;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    width: 150px;
+}
+
+h2{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.quote{
+    background-color: #E5E7EB;
+}
+
+.quote > *{
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+h1{
+    margin: 0;
+}
+
+/* -------- Header -------- */
+
+.header-image{
+    width: 60px;
+}
+
+header{
+    padding: 1rem;
+}
+
+.header{
+    display: flex;
+    margin: auto;
+    width: 70%;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+    align-items: stretch;
+}
+
+ul{
+    display: flex;
+    gap: 1.5rem;
+}
+
+.left-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+    height: 250px;
+    margin-right: 60px;
+}
+
+.right-header{
+    width: 50%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+/* -------- Random information -------- */
+
