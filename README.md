@@ -11,5 +11,7 @@
 Foto de <a href="https://unsplash.com/es/@kilianfoto?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Kilian Seiler</a> en <a href="https://unsplash.com/es/fotos/persona-reparando-telefonos-inteligentes-debajo-de-una-mesa-iluminada-PZLgTUAhxMM?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
 
 Foto de <a href="https://unsplash.com/es/@clintbustrillos?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Clint Bustrillos</a> en <a href="https://unsplash.com/es/fotos/hombre-reparando-telefono-inteligente-android-K7OUs6y_cm8?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+
+<a href="https://www.flaticon.com/free-icons/repair" title="repair icons">Repair icons created by Freepik - Flaticon</a>
       
       
