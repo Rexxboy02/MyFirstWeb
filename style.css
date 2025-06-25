@@ -76,6 +76,13 @@ h1{
     border: #E5E7EB 2px solid;
 }
 
+.nohover:hover{
+    cursor: default;
+}
+
+.hoverBut:hover{
+    cursor: pointer;
+}
 
 /* -------- Header -------- */
 
